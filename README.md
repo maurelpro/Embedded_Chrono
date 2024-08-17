@@ -1,4 +1,4 @@
-# bed_chrono
+# Embedded_Chrono
 Time Management Library for Embedded Systems
 
 This library provides easy-to-use functions for managing time in embedded projects. With `chrono.h`, you can:

@@ -28,8 +28,6 @@ typedef struct {
 // Function pointer for user-defined millis function
 typedef unsigned long (*MillisFunction)();
 
-// Default millis function, replace it as needed
-MillisFunction millis_embeded = millis;  // By default, use the standard millis()
 
 // Function to set a custom millis function
 void setMillisFunction(MillisFunction customMillis) {
